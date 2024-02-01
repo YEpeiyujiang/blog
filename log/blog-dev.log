@@ -53,3 +53,6 @@
 2024-02-01 11:53:21.109  INFO 5892 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
 2024-02-01 11:53:21.111  INFO 5892 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 0.215 seconds (JVM running for 12.133)
 2024-02-01 11:53:21.112  INFO 5892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-01 12:02:05.889  INFO 5892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-01 12:02:05.889  INFO 5892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-01 12:02:05.894  INFO 5892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

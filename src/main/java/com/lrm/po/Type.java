@@ -1,8 +1,5 @@
 package com.lrm.po;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +7,6 @@ import java.util.List;
 /**
  * Created by limi on 2017/10/14.
  */
-@Setter
-@Getter
 @Entity
 @Table(name = "t_type")
 public class Type {
@@ -26,6 +21,30 @@ public class Type {
     private List<Blog> blogs = new ArrayList<>();
 
     public Type() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Blog> getBlogs() {
+        return blogs;
+    }
+
+    public void setBlogs(List<Blog> blogs) {
+        this.blogs = blogs;
     }
 
     @Override

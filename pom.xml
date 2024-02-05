@@ -68,6 +68,15 @@
 			<artifactId>commonmark-ext-gfm-tables</artifactId>
 			<version>0.10.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

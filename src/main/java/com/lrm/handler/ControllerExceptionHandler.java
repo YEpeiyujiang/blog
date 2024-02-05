@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @ControllerAdvice
 public class ControllerExceptionHandler {
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     @ExceptionHandler(Exception.class)
     public ModelAndView exceptionHandler(HttpServletRequest request,Exception e) throws Exception {
         logger.error("Request URL:{}",request.getRequestURL(),e);

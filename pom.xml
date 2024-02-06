@@ -63,6 +63,14 @@
 			<artifactId>commonmark</artifactId>
 			<version>0.10.0</version>
 		</dependency>
+		<!-- 接口参数校验注解依赖包 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.17.Final</version>
+			<scope>compile</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>com.atlassian.commonmark</groupId>
 			<artifactId>commonmark-ext-gfm-tables</artifactId>

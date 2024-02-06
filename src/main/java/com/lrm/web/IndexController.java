@@ -4,9 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-/**
- * Created by limi on 2017/10/13.
- */
 @Controller
 public class IndexController {
 
@@ -29,6 +26,15 @@ public class IndexController {
     @GetMapping("/about")
     public String about() {
         return "about";
+    }
+
+    @GetMapping("/admin/login")
+    public String login() {
+        return "admin/login";
+    }
+    @GetMapping("/admin/index")
+    public String adminindex() {
+        return "admin/index";
     }
 
 }

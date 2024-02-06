@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head th:replace="admin/_fragments :: head(~{::title})">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>博客管理</title>
@@ -10,7 +10,7 @@
 <body>
 
   <!--导航-->
-  <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+  <nav th:replace="admin/_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
     <div class="ui container">
       <div class="ui inverted secondary stackable menu">
         <h2 class="ui teal header item">管理后台</h2>
@@ -20,8 +20,8 @@
         <div class="right m-item m-mobile-hide menu">
           <div class="ui dropdown  item">
             <div class="text">
-              <img class="ui avatar image" src="https://s11.ax1x.com/2024/02/05/pF1pvE8.jpg">
-              叶培宇
+              <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005">
+              李仁密
             </div>
             <i class="dropdown icon"></i>
             <div class="menu">
@@ -117,7 +117,7 @@
   <br>
   <br>
   <!--底部footer-->
-  <footer class="ui inverted vertical segment m-padded-tb-massive">
+  <footer th:replace="admin/_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
     <div class="ui center aligned container">
       <div class="ui inverted divided stackable grid">
         <div class="three wide column">
@@ -138,8 +138,8 @@
         <div class="three wide column">
           <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item m-text-thin">Email：lirenmi@163.com</a>
-            <a href="#" class="item m-text-thin">QQ：865729312</a>
+            <a href="#" class="item m-text-thin">Email：yepeiyu2002@163.com</a>
+            <a href="#" class="item m-text-thin">QQ：1783644194</a>
           </div>
         </div>
         <div class="seven wide column">

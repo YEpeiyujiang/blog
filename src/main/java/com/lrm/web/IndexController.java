@@ -19,22 +19,22 @@ public class IndexController {
     }
 
 
-    @GetMapping("/blog")
-    public String blog() {
-        return "blog";
-    }
-    @GetMapping("/about")
-    public String about() {
-        return "about";
-    }
-
-    @GetMapping("/admin/login")
-    public String login() {
-        return "admin/login";
-    }
-    @GetMapping("/admin/index")
-    public String adminindex() {
-        return "admin/index";
-    }
+//    @GetMapping("/blog")
+//    public String blog() {
+//        return "blog";
+//    }
+//    @GetMapping("/about")
+//    public String about() {
+//        return "about";
+//    }
+//
+//    @GetMapping("/admin/login")
+//    public String login() {
+//        return "admin/login";
+//    }
+//    @GetMapping("/admin/index")
+//    public String adminindex() {
+//        return "admin/index";
+//    }
 
 }

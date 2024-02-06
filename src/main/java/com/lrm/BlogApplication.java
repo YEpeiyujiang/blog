@@ -10,7 +10,6 @@ public class BlogApplication {
 
         SpringApplication.run(BlogApplication.class, args);
         System.out.println("服务程序已经启动");
-        System.out.println("重新进行初始化");
     }
 
 }

@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Created by limi on 2017/10/14.
+ */
 @Entity
 @Table(name = "t_blog")
 public class Blog {
@@ -12,7 +15,6 @@ public class Blog {
     @Id
     @GeneratedValue
     private Long id;
-
     private String title;
 
     @Basic(fetch = FetchType.LAZY)
@@ -34,7 +36,7 @@ public class Blog {
     @ManyToOne
     private Type type;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST})
+    @ManyToMany(fetch = FetchType.EAGER)
     private List<Tag> tags = new ArrayList<>();
 
 

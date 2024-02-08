@@ -7,12 +7,11 @@ import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
-/**
- * Created by limi on 2017/10/20.
- */
+
 public interface BlogService {
 
     Blog getBlog(Long id);
+    Blog getAndConvert(Long id);
 
     Page<Blog> listBlog(Pageable pageable,BlogQuery blog);
 

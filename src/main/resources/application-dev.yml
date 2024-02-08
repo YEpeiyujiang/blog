@@ -8,9 +8,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 logging:
   level:
     root: info
     com.lrm: debug
-  file:
-    name: log/blog-dev.log
+  file: log/blog-dev.log
+
+
+
